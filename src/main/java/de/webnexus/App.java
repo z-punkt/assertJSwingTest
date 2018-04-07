@@ -20,6 +20,7 @@ public class App extends JFrame
     public App() {
         OKButton.addActionListener(actionEvent -> textField1.setText(MESSAGE));
         setContentPane(panelMain);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
         setVisible(true);
     }
