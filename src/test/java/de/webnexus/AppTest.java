@@ -24,7 +24,7 @@ public class AppTest
     }
 
     @Test
-    public void simpleTest(){
+    public void textboxShowsMessageWhenButtonOKisClicked(){
         window.button(withText("OK")).click();
         window.textBox().requireText(App.MESSAGE);
     }
